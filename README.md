@@ -10,10 +10,14 @@ Como pré-requisitos, é necessário instalar o [Node.js](https://nodejs.org/en/
 
 Com essas aplicações instaladas, abra o terminal ou prompt de comando (dependendo do sistema operacional utilizado) na pasta da aplicação. Em seguida, execute os seguintes comandos, em sequência:
 
+## Obtendo o código
+git clone https://github.com/iTPr0/ChatTI.git
+
+No Windows/Mac/Linux:
 ```
-npm install nodemon
 npm install
-npm run start
+npm install -g nodemon
+npm run start ou node apps.js
 ```
 
 **Observação:** pode ser necessário utilizar `sudo` para instalar as dependências caso esteja usando Linux ou MacOS.
@@ -27,3 +31,9 @@ Como a aplicação foi desenvolvida com o intuito de apresentar as capacidades d
 Algumas bibliotecas são importadas de CDNs diretamente nas views ou foram incluídas manualmente na pasta do projeto. Podem haver bugs de utilização e de segurança, então utilize a aplicação apenas para fins educativos.
 
 Futuramente será desenvolvida uma nova versão corrigindo todos esses problemas utilizando um framework front-end adequado, bem como será adotada uma arquitetura melhor para a aplicação, possivelmente desenvolvida utilizando TDD.
+
+**Você precisa se tornar um administrador antes de entrar.**
+Use o comando abaixo.
+```
+/role [usuário] [0-3]
+```
