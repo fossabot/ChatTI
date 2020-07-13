@@ -1,4 +1,6 @@
 # Chat TI
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FiTPr0%2FChatTI.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FiTPr0%2FChatTI?ref=badge_shield)
+
 
 Aplicação simples de chat desenvolvida em Node.js, utilizando Socket.IO para funcionalidade de troca de mensagens em tempo real.
 
@@ -51,3 +53,7 @@ Eu escrevi esse script no meu tempo livre durante meus estudos. Se você achar �
 ## Contribuir
 Contribua criando novos problemas, enviando solicitações pull no Github ou você pode enviar um email em:
 aeoninconnu@gmail.com
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FiTPr0%2FChatTI.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FiTPr0%2FChatTI?ref=badge_large)
