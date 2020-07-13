@@ -11,7 +11,8 @@ Como pré-requisitos, é necessário instalar o [Node.js](https://nodejs.org/en/
 Com essas aplicações instaladas, abra o terminal ou prompt de comando (dependendo do sistema operacional utilizado) na pasta da aplicação. Em seguida, execute os seguintes comandos, em sequência:
 
 ## Obtendo o código
-git clone https://github.com/iTPr0/ChatTI.git
+$ git clone https://github.com/iTPr0/ChatTI.git
+$ cd ChatTI
 
 No Windows/Mac/Linux:
 ```
@@ -28,6 +29,13 @@ npm run start ou node apps.js
 ```
 http://localhost:3000
 ```
+**Você precisa se tornar um administrador antes de entrar.**
+
+Use o comando abaixo.
+```
+/role [usuário] [0-3]
+```
+
 e pronto. ;)
 
 ## Limitações
@@ -38,9 +46,8 @@ Algumas bibliotecas são importadas de CDNs diretamente nas views ou foram inclu
 
 Futuramente será desenvolvida uma nova versão corrigindo todos esses problemas utilizando um framework front-end adequado, bem como será adotada uma arquitetura melhor para a aplicação, possivelmente desenvolvida utilizando TDD.
 
-**Você precisa se tornar um administrador antes de entrar.**
-
-Use o comando abaixo.
-```
-/role [usuário] [0-3]
-```
+## Apoio, suporte.
+Eu escrevi esse script no meu tempo livre durante meus estudos. Se você achar útil, apoie o projeto espalhando a palavra.
+## Contribuir
+Contribua criando novos problemas, enviando solicitações pull no Github ou você pode enviar um email em:
+aeoninconnu@gmail.com
