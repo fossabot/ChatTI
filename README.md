@@ -17,12 +17,18 @@ No Windows/Mac/Linux:
 ```
 npm install
 npm install -g nodemon
-npm run start ou node apps.js
 ```
 
-**Observação:** pode ser necessário utilizar `sudo` para instalar as dependências caso esteja usando Linux ou MacOS.
-
-Após executar esses comandos, navegue  para `http://localhost:3000/`para visualizar a tela inicial da aplicação.
+## Inicie o servidor de bate-papo:
+(não esqueça de lançar o Node.JS antes!)
+```
+npm run start ou node apps.js
+```
+## Agora abra este URL no seu navegador:
+```
+http://localhost:3000
+```
+e pronto. ;)
 
 ## Limitações
 
@@ -33,6 +39,7 @@ Algumas bibliotecas são importadas de CDNs diretamente nas views ou foram inclu
 Futuramente será desenvolvida uma nova versão corrigindo todos esses problemas utilizando um framework front-end adequado, bem como será adotada uma arquitetura melhor para a aplicação, possivelmente desenvolvida utilizando TDD.
 
 **Você precisa se tornar um administrador antes de entrar.**
+
 Use o comando abaixo.
 ```
 /role [usuário] [0-3]
